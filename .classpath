@@ -93,5 +93,5 @@
 	<classpathentry kind="lib" path="C:/Users/Administrador/Downloads/resteasy-jaxrs-2.3.2.Final/lib/spring-web-3.0.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrador/Downloads/resteasy-jaxrs-2.3.2.Final/lib/spring-webmvc-3.0.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrador/Downloads/resteasy-jaxrs-2.3.2.Final/lib/stax-api-1.0-2.jar"/>
-	<classpathentry kind="output" path="target/classes"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>

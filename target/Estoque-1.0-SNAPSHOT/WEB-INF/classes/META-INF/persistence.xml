@@ -4,14 +4,14 @@
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <!--<class>simplejpa.entity.Person</class>-->
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/estoque"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/estoque"/>
       <property name="javax.persistence.jdbc.user" value=""/>
-      <!-- <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/> -->
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/> 
       <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver" />
       <property name="javax.persistence.jdbc.password" value=""/>
 
       <property name="hibernate.archive.autodetection" value="class, hbm" />
-      <!-- <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>-->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
       
       <property name="hibernate.show_sql" value="true"/>
       <property name="hibernate.hbm2ddl.auto" value="update"/> 
